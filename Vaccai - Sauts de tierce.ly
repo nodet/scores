@@ -1,4 +1,10 @@
-﻿\version "2.16.2"
+﻿%
+% Nicola Vaccai: Sauts de tierces
+% Editing Copyright (c) Xavier Nodet, 2013
+% This work is licensed under a Creative Commons Attribution 3.0 Unported License
+%
+
+\version "2.16.2"
 
 \paper {
   #(set-paper-size "a5" 'landscape)
@@ -6,7 +12,15 @@
 
 \header {
   title = "Sauts de tierce"
-  composer = "N. Vaccai"
+  composer = "Nicola Vaccai"
+  copyright = \markup {
+      \fontsize #-2
+      \center-column {
+         "Editing by Xavier Nodet, 2013, using LilyPond 2.16.2."
+         "This work is licensed under a Creative Commons Attribution 3.0 Unported License."
+      }
+  }
+  tagline = ""
 }
 
 melody = \relative c {

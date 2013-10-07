@@ -1,4 +1,13 @@
-﻿\version "2.16.2"
+﻿%
+% W. A. Mozart: O Isis und Osiris
+% Editing Copyright (c) Xavier Nodet, 2013
+% This work is licensed under a Creative Commons Attribution 3.0 Unported License
+%
+
+
+
+
+\version "2.16.2"
 
 \paper {
   #(set-paper-size "a5" 'landscape)
@@ -7,6 +16,14 @@
 \header {
   title = "Sarastro - O Isis und Osiris"
   composer = "W.A. Mozart"
+  copyright = \markup {
+      \fontsize #-2
+      \center-column {
+         "Editing by Xavier Nodet, 2013, using LilyPond 2.16.2."
+         "This work is licensed under a Creative Commons Attribution 3.0 Unported License."
+      }
+  }
+  tagline = ""
 }
 
 melody = \relative c {
