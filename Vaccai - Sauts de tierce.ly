@@ -39,19 +39,30 @@ melody = \relative c {
 
 }
 
-text = \lyricmode {
+text_italien = \lyricmode {
   Sem -- pli -- | cet -- ta  tor -- to -- | rel -- la, che non |
   ve -- de_il sue pe -- | ri -- glio, per fug -- | gir dal cru -- do_ar -- | ti -- glio vo -- la_in | grembo al cac -- cia -- |
   tor, per fug -- | gir dal cru -- do_ar -- | ti -- glio, per fug -- | gir dal cru -- do_ar -- | ti -- glio vo -- la_in |
   grembo al cac -- cia -- | tor, vo -- la_in | grembo al cac -- cia -- | tor 
 }
 
+text_allemand = \lyricmode {
+  \override Lyrics . LyricText #'font-shape = #'italic 
+  \override Lyrics . LyricText #'font-size = #-1 
+  Ar -- mes | Täub -- chen, laß dich | war -- nen vor des | Vo -- gel -- stel -- lers |
+  Fal -- len, kaum ent -- | flohn des Gei -- ers | Kral -- len, hüt dich | vor des Jä -- gers |
+  Garn, kaum ent -- | flohn des Gei -- ers | Kral -- len, hü -- te | dich vor Schlin -- gen, |
+  Fal -- len, vor des | tück -- schen Jä -- gers | Garn, vor des | tück -- schen Jä -- gers | Garn!
+}
+
+
 \score{
   <<
     \new Voice = "one" {
       \melody
     }
-    \new Lyrics \lyricsto "one" \text
+    \new Lyrics \lyricsto "one" \text_italien
+    \new Lyrics \lyricsto "one" \text_allemand
   >>
   \layout { }
   \midi { }
