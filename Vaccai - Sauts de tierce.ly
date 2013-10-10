@@ -55,9 +55,9 @@ melody = \relative c {
 
 text_italien = \lyricmode {
   Sem -- pli -- | cet -- ta  tor -- to -- | rel -- la, che non |
-  ve -- de_il suo pe -- | ri -- glio, per fug -- | gir dal cru -- do_ar -- | ti -- glio vo -- la_in | grembo al cac -- cia -- |
+  ve -- de_il suo pe -- | ri -- glio, per fug -- | gir dal cru -- do_ar -- | ti -- glio vo -- la_in | grem -- bo_al cac -- cia -- |
   tor, per fug -- | gir dal cru -- do_ar -- | ti -- glio, per fug -- | gir dal cru -- do_ar -- | ti -- glio vo -- la_in |
-  grembo al cac -- cia -- | tor, vo -- la_in | grembo al cac -- cia -- | tor 
+  grem -- bo_al cac -- cia -- | tor, vo -- la_in | grem -- bo_al cac -- cia -- | tor 
 }
 
 text_allemand = \lyricmode {
