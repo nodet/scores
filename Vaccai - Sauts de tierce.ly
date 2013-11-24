@@ -96,7 +96,7 @@ upper = \relative c {
   <d bes>4.
   
   % per fugir
-  es4( d8) |
+  bes4( d8) |
   c4(  es8) <<{d4( f8)} bes,4.>> |
   <<{f'8( es8)} bes4>> r8 
   
@@ -147,13 +147,13 @@ lower = \relative c {
   
   % vola
   aes4 f8 |
-  aes4 aes8 bes,4 bes8 |
+  bes4 bes8 bes,4 bes8 |
   es4 r8
   
   % vola
   aes,4 aes8 |
   bes4 bes8 <bes bes,>4 <bes bes,>8 |
-  <d d,>4 r8 r4 r8
+  <es es,>4 r8 r4 r8
 }
 
 
