@@ -31,14 +31,14 @@ melody = \relative c' {
   g d g g |
   a e c f |
   c f d g |
-  f c16 r16 d8 g |   % missing > on g
+  f c16 r16 d8 g-> |
   
-  e a g bes |      % missing > on a and b
+  e a-> g bes-> |
   g4 c8 g |
   a f g d16[( e)] | 
-  f8 r d g |       % missing > on g
+  f8 r d g-> |
   
-  e a f bes |      % missing > on a and b
+  e a-> f bes-> |
   g4 c8 g |
   a f g d16[( e)] |
   f4 r4 |
