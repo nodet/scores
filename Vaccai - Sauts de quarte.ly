@@ -22,9 +22,8 @@ melody = \relative c' {
   \key f \major
   \time 2/4
   \tempo "Adagio"
+  \autoBeamOff
 
-  % Don't let all the notes be tied by pairs
-  
   r4 c8 f |
   c f d g |
   f d16 r16 g8 d |
@@ -36,12 +35,12 @@ melody = \relative c' {
   
   e a g bes |      % missing > on a and b
   g4 c8 g |
-  a f g d16( e) | 
+  a f g d16[( e)] | 
   f8 r d g |       % missing > on g
   
   e a f bes |      % missing > on a and b
   g4 c8 g |
-  a f g d16( e) |
+  a f g d16[( e)] |
   f4 r4 |
   
 }
