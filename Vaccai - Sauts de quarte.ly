@@ -32,21 +32,26 @@ melody = \relative c' {
   g d g g |
   a e c f |
   c f d g |
-  f c16 r8 d g |   % missing > on g
+  f c16 r16 d8 g |   % missing > on g
   
   e a g bes |      % missing > on a and b
   g4 c8 g |
-  a f g d16 e | 
+  a f g d16( e) | 
   f8 r d g |       % missing > on g
   
   e a f bes |      % missing > on a and b
   g4 c8 g |
-  a f g d16 e |
+  a f g d16( e) |
   f4 r4 |
   
 }
 
 text_italien = \lyricmode {
+  La -- scia_il | li -- do_e,_il ma -- re_in -- | fi -- do a sol -- |
+  car tor -- na_il noc -- | chie -- ro, e pur | sa che men -- zo -- | gne -- ro al -- tre |
+  vol -- te l'in -- gan -- | nò, al -- tre | vol -- te l'in -- gan__ -- | nò, al -- tre |
+  vol -- te l'in -- gan -- | nò, al -- tre | vol -- te l'in -- gan -- | nò
+
 }
 
 text_allemand = \lyricmode {
