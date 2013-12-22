@@ -24,7 +24,7 @@ upper = \relative c' {
   \time 2/4
   \tempo "Adagio"
 
-  r4 <<{c8( f)} \\ a,4>> | <<{c8( f)} \\ a,4>> <<{d8( g)} \\ bes,4>> | <<{f'8( c)} \\ g4>> g'8 d |
+  r4 <<{c8( f)} \\ a,4>> | <<{c8( f)} \\ a,4>> <<{d8( g)} \\ bes,4>> | <<{f'8( c)} \\ a4>> g'8 d |
   g d g g | a e16 r16 <<{c8 f} \\ a,4 >> | <<{c8 f} \\ a,4 >> <<{d8 g} \\ bes,4 >> | <<{f'8 c} \\ a4 >> d8 g-> |
   e a-> f bes-> | g4 c8 <g e> | a <f a,> <<{g8 d16 e} \\ bes4>> | <a f'>8 r d g-> |
   e8 a-> f bes-> | g4 c8 <g e> | a <f a,> <<{g d16 e} \\ bes4 >> | <f' a,>4 r |  

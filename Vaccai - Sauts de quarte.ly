@@ -26,7 +26,7 @@ melody = \relative c' {
 
   r4 c8 f |
   c f d g |
-  f d16 r16 g8 d |
+  f c16 r16 g'8 d |
   
   g d g g |
   a e c f |
