@@ -25,7 +25,18 @@ upper = \relative c' {
   \tempo 4 = 105
 
   r2 <b e>4( e <d fis>2) <d fis>4( <b e> | <b dis>2) <b dis>4( <b e> fis'2 r8 << {fis8( fis) e} \\ cis4. >> |
+  <b dis>2) <b e>4( e <d fis>2) <d fis>4( <b e> | <b dis>2) <b dis>4( <b e> fis'2 r8 << {fis8( fis) e} \\ cis4. >> |
   <b dis>2)
+  
+  % Teach thine...
+  << g2 \\ { d'4( g4. fis8 d e  | <a, d fis>4 <b e> <b dis>2) } >> |
+  
+  \key g \major
+  \scaleDurations 1/1 {
+      <g c e>2( <a c e>4) | <a d fis>2( <d g>4) | << { b4( d2 b) } \\ { e4( fis8 g4 fis8 g2) } >>
+      d4( | d8 e fis4 b, | b2) b4 | r8 e4( e8 dis4 | <b e>2.) |
+  }
+
   
 %  r4 <<{c8( f)} \\ a,4>> | <<{c8( f)} \\ a,4>> <<{d8( g)} \\ bes,4>> | <<{f'8( c)} \\ a4>> g'8 d |
 %  g d g g | a e16 r16 <<{c8 f} \\ a,4 >> | <<{c8 f} \\ a,4 >> <<{d8 g} \\ bes,4 >> | <<{f'8 c} \\ a4 >> d8 g-> |
@@ -38,7 +49,17 @@ lower = \relative c {
   \key d \major
   \time 8/4
 
-  r2 <e gis>4( <cis a'> <d a'>2) <d a'>4( <e g> | <b fis'>2)
+  r2 <e gis>4( <cis a'> <d a'>2) <d a'>4( <e g> | <b fis'>2) b4( e d cis8 b << fis'2 \\ { r8 b ais4} >> |
+  <b, fis'>2) <e gis>4( <cis a'> <d a'>2) <d a'>4( <e g> | <b fis'>2) b4( e d cis8 b << fis'2 \\ { r8 b ais4} >> |
+  <b, fis'>2)
+
+  % Teach thine...
+  g4.( a8 b2 | d4 e <b fis>2)
+  
+  \key g \major
+  \scaleDurations 1/1 {
+    c4.( b8 a4) | d4.( c8 b4 <fis' a> <e b'>2 | <g, g'>) <g g'>2( | d'2 <e g>4 | << b4.) \\ fis'2 >>
+  }
   
 }
 
