@@ -37,6 +37,12 @@ upper = \relative c' {
       d4( | d8 e fis4 b, | b2) b4 | r8 e4( e8 dis4 | <b e>2.) |
   }
 
+  % Eyes were made...
+  << g2 \\ { d'4(  g4 g8 fis d e | < a, d fis>4 <b e>4 <b dis>2) }  >>
+  % Viewing...
+  <g c e>2( <a c e>4) | <a d fis>2( <d g>4) << { b4( d2 | b2) } \\ { e4( fis8 g4 fis8 | g2) } >>
+  % Procur'd
+  d4( d8 e fis4 b, | b2) b4 | r8 e4( e8 dis4 | <b e>2.) 
   
 %  r4 <<{c8( f)} \\ a,4>> | <<{c8( f)} \\ a,4>> <<{d8( g)} \\ bes,4>> | <<{f'8( c)} \\ a4>> g'8 d |
 %  g d g g | a e16 r16 <<{c8 f} \\ a,4 >> | <<{c8 f} \\ a,4 >> <<{d8 g} \\ bes,4 >> | <<{f'8 c} \\ a4 >> d8 g-> |
@@ -58,9 +64,17 @@ lower = \relative c {
   
   \key g \major
   \scaleDurations 1/1 {
-    c4.( b8 a4) | d4.( c8 b4 <fis' a> <e b'>2 | <g, g'>) <g g'>2( | d'2 <e g>4 | << b4.) \\ fis'2 >>
+    c4.( b8 a4) | d4.( c8 b4 <e g> <d a'>2 | <g, g'>) <g g'>4( | d'2 <e g>4 | 
+    << { b4.) a8( g fis | e4 c'2 e,2.) } \\ { fis'2 g4 | r fis4.( a8 gis2.) } >> |
+    
   }
-  
+
+  % Eyes were made...
+  g,4.( a8 b2 | d4 e <b fis'>2) |
+  % Viewing...
+  c4.( b8 a4) | d4.( c8 b4 <e g>4 <d a'>2 | <g, g'>2)
+  % Procured
+  << { g4( d'2 e4 | b4.) a8( g fis | e4 b'2 | e,2.) } \\ { g'4  d2 g4 | fis2 g4 | r4 fis4.( a8 gis2.) } >>
 }
 
 
