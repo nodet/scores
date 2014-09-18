@@ -79,6 +79,7 @@ lower = \relative c {
 
 
 \score{
+\transpose b a {
   <<
     \new Voice = "one" {
       \melody
@@ -90,6 +91,7 @@ lower = \relative c {
       \new Staff = "lower" \lower
     >>
   >>
+ }
   \layout { }
   \midi { }
 }
