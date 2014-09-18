@@ -17,38 +17,22 @@
   tagline = ""
 }
 
-melody = \relative c'' {
+melody = \relative c' {
   \clef treble
-  \key d \major
-  \time 8/4
-  \tempo 4 = 105
-  %\autoBeamOff
-
-  r2 b4^\p a a2 a4 g | fis2 fis4^\< g a\!^\> b2 ais4 | b2\! b4^\mf a a2 a4 g |
-  fis2 fis4^\< g a b2\! ais4^\> | b2 b4.^\f cis8 d4 b | a g fis2 ||
-
   \key g \major
-  \scaleDurations 1/1 {
-      e4.^\p fis16( g a4) | fis4.( g16 a b4) g a a | b2 b4 | a4.^\< g8( fis e) |
-      dis2 e4 | g\> fis2\! | e2. |
-  }
+  \time 6/8
+
+  r4 e8 a4 b8 | c4 b8 a( b) a | gis4 e8 e4 d8
   
-  b'4.^\mf cis8 d4 b |
-  a g fis2 |
   
-  \scaleDurations 1/1 {
-      e4. fis16( g a4) | fis4.( g16 a b4) g a a | b2 b4^\p |
-      a4. g8( fis e) | dis2 e4 | g fis2 | e2. |
-  }
   
 }
 
 text = \lyricmode {
-   Come a -- way, come sweet | love, The gold -- en morn -- ing | breaks, All the earth, all the |
-   air of love and plea -- sure | speaks: Teach thine arms then | to em -- brace |
-   And sweet | ro -- sy lips to | kiss, And | mix our | 
-   souls in | mu -- tual | bliss, | Eyes were made for |
-   beau -- ty's grace | View -- ing | rue -- ing | love's long | pain Pro -- |
-   cur'd by | beau -- ty's | rude dis -- | dain.
-
+   Co -- sì, A -- mor, mi fai__ lan -- guir, mi fai lan -- guir, 
+   co -- si, A -- mor, mi fai__ lan -- guir, mi fai lan -- guir, 
+   non è mi -- a ciò che de -- si -- o, 
+   chi mi fug -- ge se -- guir deg -- gio e chi si stru -- ge nel__ mio fo -- co,
+   nel__ mio fo -- co_ho da__ fug -- gir
+   
 }
