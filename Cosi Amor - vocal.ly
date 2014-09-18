@@ -1,6 +1,6 @@
 ﻿%
-% Nicola Vaccai: Sauts de quarte
-% Editing Copyright (c) Xavier Nodet, 2013
+% Alessandro Stradella: Così, Amor, mi fai languir
+% Editing Copyright (c) Xavier Nodet, 2014
 % This work is licensed under a Creative Commons Attribution 3.0 Unported License
 %
 
@@ -10,14 +10,14 @@
   #(set-paper-size "a5" 'landscape)
 }
 
-\include "Come away.ly"
+\include "Cosi Amor.ly"
 
 \score{
   <<
     \new Voice = "one" {
       \melody
     }
-    \new Lyrics \lyricsto "one" \text_anglais
+    \new Lyrics \lyricsto "one" \text
   >>
   \layout { }
   \midi { }

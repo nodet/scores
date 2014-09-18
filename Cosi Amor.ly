@@ -1,16 +1,16 @@
 ﻿%
-% Come away, come sweet love
+% Alessandro Stradella: Così, Amor, mi fai languir
 % Editing Copyright (c) Xavier Nodet, 2014
 % This work is licensed under a Creative Commons Attribution 3.0 Unported License
 %
 
 \header {
-  title = "Come away, come sweet love"
+  title = "Così, Amor, mi fai languir"
   composer = ""
   copyright = \markup {
       \fontsize #-2
       \center-column {
-         "Editing by Xavier Nodet, 2013, using LilyPond 2.16.2."
+         "Editing by Xavier Nodet, 2014, using LilyPond 2.16.2."
          "This work is licensed under a Creative Commons Attribution 3.0 Unported License."
       }
   }
@@ -43,7 +43,7 @@ melody = \relative c'' {
   
 }
 
-text_anglais = \lyricmode {
+text = \lyricmode {
    Come a -- way, come sweet | love, The gold -- en morn -- ing | breaks, All the earth, all the |
    air of love and plea -- sure | speaks: Teach thine arms then | to em -- brace |
    And sweet | ro -- sy lips to | kiss, And | mix our | 
