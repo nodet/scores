@@ -21,17 +21,19 @@ melody = \relative c' {
   \clef treble
   \key g \major
   \time 6/8
-
-  r4 e8 a4 b8 | c4 b8 a( b) a | gis4 e8 e4 d8
+  \autoBeamOff
   
-  
+  r4 e8 a4 b8 | c4 b8 a[( b)] a | gis4 e8 e4 d8 |
+  e4 e8 a4 b8 | c4 b8 a[( b)] a | gis4 e8 e4 d8 | e4. r8 e8 e |
+  e4 e8 g g g  | g4 g8 r8 a8 a8  | a[( b)] c c[( b)] a |
+  gis4 e8 b' a b | c[( b)] c a[( g)] a | b[( a)] b e,[( fis)] g |
   
 }
 
 text = \lyricmode {
    Co -- sì, A -- mor, mi fai__ lan -- guir, mi fai lan -- guir, 
    co -- si, A -- mor, mi fai__ lan -- guir, mi fai lan -- guir, 
-   non è mi -- a ciò che de -- si -- o, 
+   non è mi -- o ciò che de -- si -- o, 
    chi mi fug -- ge se -- guir deg -- gio e chi si stru -- ge nel__ mio fo -- co,
    nel__ mio fo -- co_ho da__ fug -- gir
    
