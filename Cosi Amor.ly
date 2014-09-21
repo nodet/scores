@@ -28,6 +28,11 @@ melody = \relative c' {
   e4 e8 g g g  | g4 g8 r8 a8 a8  | a[( b)] c c[( b)] a |
   gis4 e8 b' a b | c[( b)] c a[( g)] a | b[( a)] b e,[( fis)] g |
   
+  a[( b)] c g[( fis)] g | e4.    e8 d e | f[( g)] a g[( f)] g |
+  e4 f8 g([ f)] g | a[( b)] c e, d[( c)] | c4 e8 a4 b8 | c4 b8 a[( b)] a |
+  gis4 e8 e4 d8 | e4.   r4 a8 | b[( c d)] c[( b a)] | a4.( a8[ b c] |
+  bes4) a8 a4 a8 | a4.( a8[ b c] | bes4) a8 a4 a8 | a2.
+  
 }
 
 text = \lyricmode {
@@ -35,6 +40,12 @@ text = \lyricmode {
    co -- si, A -- mor, mi fai__ lan -- guir, mi fai lan -- guir, 
    non è mi -- o ciò che de -- si -- o, 
    chi mi fug -- ge se -- guir deg -- gio e chi si stru -- ge nel__ mio fo -- co,
-   nel__ mio fo -- co_ho da__ fug -- gir
+   nel__ mio fo -- co_ho da__ fug -- gir e chi si stru -- ge nel__ mio fo -- co,
+   nel__ mio fo -- co_ho da__ fug -- gir.
+   
+   Co -- si, A -- mor, mi fai__ lan -- guir, mi fai lan --guir
+   mi fai__ lan__ -- guir__ mi fai lan -- guir,__ mi fai lan -- guir.
+   
+   
    
 }
