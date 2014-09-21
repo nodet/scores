@@ -17,7 +17,15 @@
     \new Voice = "one" {
       \melody
     }
-    \new Lyrics \lyricsto "one" \text
+    \new Lyrics \lyricsto "one" 
+      << 
+         \new Lyrics { \set associatedVoice = "one"
+           \first
+         }
+         \new Lyrics { \set associatedVoice = "one"
+           \second
+         }
+      >>
   >>
   \layout { }
   \midi { }

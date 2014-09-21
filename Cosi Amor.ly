@@ -36,7 +36,7 @@ melody = \relative c' {
   }
 }
 
-text = \lyricmode {
+first = \lyricmode {
    Co -- sì, A -- mor, mi fai__ lan -- guir, mi fai lan -- guir, 
    co -- si, A -- mor, mi fai__ lan -- guir, mi fai lan -- guir, 
    non è mi -- o ciò che de -- si -- o, 
@@ -45,7 +45,8 @@ text = \lyricmode {
    nel__ mio fo -- co_ho da__ fug -- gir.
    Co -- si, A -- mor, mi fai__ lan -- guir, mi fai lan --guir
    mi fai__ lan__ -- guir__ mi fai lan -- guir,__ mi fai lan -- guir.
-   
+}
+second = \lyricmode {
    Co -- sì, A -- mor, mi fai__ pe -- nar, mi fai pe -- nar, 
    co -- si, A -- mor, mi fai__ pe -- nar, mi fai pe -- nar, 
    non mi da -- i chi tan -- to_a -- ma -- i,
