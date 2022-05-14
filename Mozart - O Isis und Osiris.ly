@@ -34,16 +34,16 @@ melody = \relative c {
 
   \compressFullBarRests
   R2.*3 |
-  
+
   % O Isis und Osiris
-  r4 r c  |              
-  f2 c4 |  
+  r4 r c  |
+  f2 c4 |
   g'2 c,4 |
-  a'2 bes8( g) |  
+  a'2 bes8( g) |
   % schenket der Weisheit Geist dem neuen Paar
-  f4 e g |              
+  f4 e g |
   bes2 g4 |
-  e2 g8( e) |               
+  e2 g8( e) |
   c2 bes4 |
   a2 r4 |
   % die ihr der Wandrer
@@ -64,7 +64,7 @@ melody = \relative c {
   c2 r4 |
 
   R2.*4 |
-  
+
   % Lasst sie der Prüfung
   g'4 a bes |
   c2 a8( fis) |
@@ -82,22 +82,22 @@ melody = \relative c {
   a8( g) g4 r |
   % kühnen Lauf
   c,( g') bes |
-  bes( a) r |  
-  
+  bes( a) r |
+
   % nehmt sie in euren Wohnsitz auf,
   f a c |
   d,2 bes'8( g) |
   f2 g4 |
   g( a) r |
-  
+
   % nehmt sie in euren Wohnsitz auf.
   f e d |
   cis( d) bes |
   c2 c4 |
   f,2 r4 |
-  
+
   R2.*7 |
-  
+
 }
 
 text = \lyricmode {
@@ -107,13 +107,13 @@ text = \lyricmode {
   die ihr der | Wand -- rer | Schrit -- te | len -- ket |
   stärkt mit Ge -- | duld sie | in Ge -- | fahr_ |
   stärkt mit Ge -- | duld sie | in Ge -- | fahr_ |
- 
+
 % Ô Isis et Osiris
 % accordez la sagesse au nouveau couple !
 % Dirigez vers eux les pas du Voyageur
 % et accordez-leur la fermeté dans le danger.
 
- 
+
   Lasst sie der | Prü -- fung | Früch -- te | se -- hen |
   doch soll -- ten | sie zu | Gra -- be | ge -- hen, |
   so lohnt der | Tu -- gend | küh -- nen | Lauf, |
@@ -123,8 +123,8 @@ text = \lyricmode {
 % Montrez-leur les fruits de leurs épreuves.
 % Mais s’ils devaient y succomber,
 % récompensez encore l’audace de leur vertu
-% et accueillez-les dans votre demeure !  
-  
+% et accueillez-les dans votre demeure !
+
 }
 
 \score{
