@@ -6,7 +6,7 @@
 \version "2.22.2"
 
 \header {
-  title = "Gladiator - 2M7 - Lucilla and Maximus"
+  title = "Gladiator 2M7, Lucilla and Maximus, page 22"
   composer = "H. Zimmer and L. Gerrard"
   copyright = \markup {
       \fontsize #-2
@@ -25,6 +25,9 @@ melody = \relative c {
   \tempo 4 = 68
 
   % 33
+  \set Score.currentBarNumber = #33
+  \set Score.barNumberVisibility = #all-bar-numbers-visible
+  \bar ""
   g'2. | e2. |
 
   % 35
