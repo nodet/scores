@@ -20,22 +20,25 @@ melody = \relative c {
   \tempo 4 = 111
 
   % 318
+  \set Score.currentBarNumber = #318
+  \set Score.barNumberVisibility = #all-bar-numbers-visible
+  \bar ""
   r4 a' f g | d1( | d) | c( | c
 
   % 323
   c) | c( | c2) bes4( a | g1 | g2) f'4( cis) |
 
   %328
-  d2( e | f) g( | a1 | f8) r d4( e cis | d1( | d))
+  d2( e | f) g( | a1 | f8) r d4\( e cis | d1( | d)\)
 
   %334
-  c( | c) | c( | c) | c( | c2) bes4( a |
+  c( | c) | c( | c) | c( | c2) bes4\( a |
 
   %340
-  g1( | g2)) f'4( cis | d2 e | f) g( | a,4) r4 r2 |
+  g1( | g2)\) f'4( cis | d2 e | f) g( | a,4) r4 r2 |
 
   %345
-  g4 r4 r2 | a4 r4 r2 | bes4 r4 r2 | a4 r a r | d r r2 |
+  g4 r4 r2 | a4 r4 r2 | bes4 r4 r2 | a4 r a r | d, r r2 |
 
 
 }

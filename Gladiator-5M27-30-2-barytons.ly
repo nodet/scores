@@ -20,10 +20,13 @@ melody = \relative c {
   \tempo 4 = 86
 
   % 218
+  \set Score.currentBarNumber = #218
+  \set Score.barNumberVisibility = #all-bar-numbers-visible
+  \bar ""
   aes1. | r | b |
 
   % 221
-  r | bes | ees |
+  r | bes | r | des |
 
   % 225
   r | bes | r | aes4 r r aes r r8 fis |
