@@ -20,6 +20,9 @@ melody = \relative c {
   \tempo 4 = 172
 
   % 165
+  \set Score.currentBarNumber = #165
+  \set Score.barNumberVisibility = #all-bar-numbers-visible
+  \bar ""
   a1.( | \time 5/4 2 2.)
 
   %167

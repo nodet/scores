@@ -1,8 +1,3 @@
-%
-% Gladiator - 3M14-17 - I salute you, p 49-51
-%
-
-
 \version "2.22.2"
 
 \header {
@@ -25,6 +20,9 @@ melody = \relative c {
   \tempo 4 = 120
 
   % 254
+  \set Score.currentBarNumber = #254
+  \set Score.barNumberVisibility = #all-bar-numbers-visible
+  \bar ""
   e2.( | 2.) | fis( | fis) | e( |
 
   % 259
