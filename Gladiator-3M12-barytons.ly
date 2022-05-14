@@ -1,12 +1,7 @@
-﻿%
-% Gladiator - 3M12 - To Marakesh, p 30
-%
-
-
-\version "2.22.2"
+﻿\version "2.22.2"
 
 \header {
-  title = "Gladiator - 3M12 - To Marakesh"
+  title = "Gladiator 3M12, To Marakesh, pages 30-35"
   composer = "H. Zimmer and L. Gerrard"
   copyright = \markup {
       \fontsize #-2
@@ -25,31 +20,40 @@ melody = \relative c {
   \tempo 4 = 139
 
   % 1..9
-  b1 |
+  b1( %\repeat unfold 7 b |
+  b) |
 
   % 10
   fis'2( e) | b1 |
 
   % 12..18
-  b |
+  b( %\repeat unfold 5 b |
+  b) |
 
   % 19..23
-  b' |
+  b'( %\repeat unfold 3 b |
+  b) |
 
   % 24..28
-  e, |
+  e,( %\repeat unfold 3 e |
+  e) |
 
   % 29..34
-  fis
+  fis( %\repeat unfold 4 fis |
+  fis) |
+
 
   % 35..40
-  b,
+  b,( %\repeat unfold 4 b |
+  b) |
 
   % 41..48
-  r
+  r %\repeat unfold 6 r |
+  r |
 
-  % 49..end
-  b
+  % 49..78
+  b( %\repeat unfold 28 b |
+  b) |
 
 }
 
