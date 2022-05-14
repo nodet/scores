@@ -10,7 +10,7 @@
 \version "2.16.2"
 
 \paper {
-  #(set-paper-size "a5" 'landscape)
+  #(set-paper-size "a5landscape")
 }
 
 \header {
@@ -19,7 +19,7 @@
   copyright = \markup {
       \fontsize #-2
       \center-column {
-         "Editing by Xavier Nodet, 2013, using LilyPond 2.16.2."
+         "Editing by Xavier Nodet, 2013, using LilyPond 2.22.2."
          "This work is licensed under a Creative Commons Attribution 3.0 Unported License."
       }
   }
@@ -32,7 +32,7 @@ melody = \relative c {
   \time 3/4
   \tempo "Adagio" %4 = 65
 
-  \compressFullBarRests
+  \compressEmptyMeasures
   R2.*3 |
 
   % O Isis und Osiris
