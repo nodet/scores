@@ -1,7 +1,7 @@
 \version "2.22.2"
 
 \header {
-  title = "Gladiator - 5M27-30 - Barbarian hoard, p 68-69"
+  title = "Gladiator - 7M40C - The kiss, p 96-97"
   composer = "H. Zimmer and L. Gerrard"
   copyright = \markup {
       \fontsize #-2
@@ -16,19 +16,21 @@
 melody = \relative c {
   \clef bass
   \key c \major
-  \time 6/4
-  \tempo 4 = 172
+  \time 3/4
+  \tempo 4 = 69
 
-  % 165
-  \set Score.currentBarNumber = #165
+  % 15
+  \set Score.currentBarNumber = #15
   \set Score.barNumberVisibility = #all-bar-numbers-visible
   \bar ""
-  a1.( | \time 5/4 2 2.)
+  b'2. | a2 g4 | fis2.( | a)
 
-  %167
-  \time 7/4
-  \tempo 4 = 160
-  ees'2. des1( | \time 6/4 des1) r2 |
+  % 19
+  g2 fis4 | e2.( | g) | a2 g4 | fis2.( | fis4) e d |
+
+  % 25
+  e2.( | e2. | e2. | e2.) |
+
 
 }
 
