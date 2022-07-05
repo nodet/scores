@@ -62,7 +62,7 @@ melody = \relative c {
   fis2 g4 g | a1 | d,2( cis | 
   
   % 298
-  b a g g') | a1 | d,4( cis' b a) |
+  b4 a g g') | a1 | d,4( cis' b a) |
   
   % 301 
   g( fis e d | d' cis b a | g) fis( e) d |
