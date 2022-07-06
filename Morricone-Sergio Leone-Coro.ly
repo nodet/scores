@@ -61,6 +61,8 @@ tenors = \relative c {
   R2. | r4 des,2~ | 2. | a'( | bes2) r4 | R2.*3 | des2.~ | 2 g,4~ | 2.~ | 4 ces2~ | 2. |
   % 297
   f,~ | 2 bes4~| 2.~ | 4 ges2~ | 2. | aes~ | 2  r4 | R2. | r4 aes2~ | 2. |
+  % 307
+  ees'2.~ | 2 des4~ | 2.~ | 4 aes2~ | 2.
 }
 
 tenors_deux = \relative c {
@@ -112,6 +114,8 @@ tenors_deux = \relative c {
   R2. | r4 des,2~ | 2. | a'( | bes2) r4 | R2.*3 | des2.~ | 2 g,4~ | 2.~ | 4 ces2~ | 2. |
   % 297
   f,~ | 2 bes4~| 2.~ | 4 ges2~ | 2. | aes~ | 2  r4 | R2. | r4 aes2~ | 2. |
+  % 307
+  ees'2.~ | 2 des4~ | 2.~ | 4 aes2~ | 2.
 }
 
 basses = \relative c {
@@ -160,7 +164,7 @@ basses = \relative c {
   
   % 284
   \key ges \major
-  R2.*4 | r2 bes,4~ | 2. | r4 ges'2~ | 2. | R2.*11 | r2 des4~ | 2.~ | 4 r2 | R2. |
+  R2.*4 | r2 bes,4~ | 2. | r4 ges'2~ | 2. | R2.*11 | r2 des4~ | 2.~ | 4 r2 | R2.*6 |
 }
 
 \score{
