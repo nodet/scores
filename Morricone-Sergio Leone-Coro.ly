@@ -34,6 +34,18 @@ tenors = \relative c {
   a | e'( | e | e) \breathe | a,\( | e' | d( | d2)\) \breathe g,\( |
   % 123
   d'1( | d2)\) \breathe g | d g, | d' g | d1( | d | d | d) | c( | c2. c8) r8 |
+  % 133
+  \compressMMRests {R1*19} |
+  % 152
+  \key d \major
+  \compressMMRests {R1*36} |
+  % 188
+  a1( | a) | b | c | b( | b) | a( | a) | b( | b) | cis( | cis) | d |
+  % 200
+  e | fis | d( | d) | cis |
+  % 206
+  \time 12/8
+  d1.( | d | d8) r8 r4 r1 |
 }
 
 tenors_deux = \relative c {
@@ -57,6 +69,18 @@ tenors_deux = \relative c {
   a | e'( | e | e) \breathe | a,\( | e' | d( | d2)\) \breathe  g,\( |
   % 123
   d'1( | d2)\) \breathe g | d g, | d' g | d1( | d | d | d) | c( | c2. c8) r8 |
+  % 133
+  \compressMMRests {R1*19} |
+  % 152
+  \key d \major
+  \compressMMRests {R1*36} |
+  % 188
+  fis,1( | fis | fis | fis) | g( | g) | fis( | fis) | fis( | fis) | a( | a) |
+  % 200
+  b | cis | a( | a) | b | a |
+  % 206
+  \time 12/8
+  d1.( | d | d8) r8 r4 r1 |
 }
 
 basses = \relative c {
@@ -80,6 +104,18 @@ basses = \relative c {
   a | e'( | e | e) \breathe | a,\( | e' | d( | d2)\) \breathe g,\( |
   % 123
   d'1( | d2)\) r2 | R1*8
+  % 133
+  \compressMMRests {R1*19} |
+  % 152
+  \key d \major
+  \compressMMRests {R1*36} |
+  % 188
+  d,1 | cis | b | a | g( | g) | d'( | d) | b~ | b | fis'~ | fis |
+  % 200
+  g | a | d,~ | d | g | a2.~ a8 r8 |
+  % 206
+  \time 12/8
+  r1. | r1. | r1. |
 }
 
 \score{
