@@ -19,33 +19,32 @@ tenors = \relative c {
 
   % 54
   \bar ""
-  d1\( | g | a | d( | d2)\) \breathe g,( | a1 | d)( | d1 | d | d | d)
+  d1\( | g | a | d~ | d2\) \breathe g,( | a1 | d)~ | d1~ | d~ | d~ | d
   % 65
-  c( | c | c | c2. c8) r8 | 
-  % en fait, 20 mesures
+  c~ | c~ | c~ | c2.~ c8 r8 |
   \compressMMRests {R1*20} |
   % 89  
-  d1( | d) | d( | d) | f( | f) | f( | f) | g( | g)( | a)( | a))
+  d1~ | d | d~ | d | f~ | f | f~ | f | g(~ | g | a~ | a)
   % 101
-  d,( | d | d | d2. d8 r8) | r1 | r1 |
+  d,~ | d~ | d~ | d2.~ d8 r8 | r1 | r1 |
   % 107
-  d,1\( | a'( | a | a)\) \breathe | f\( | c'( | c | c)\) \breathe
+  d,1\( | a'~ | a~ | a\) \breathe | f\( | c'~ | c~ | c\) \breathe
   % 115
-  a | e'( | e | e) \breathe | a,\( | e' | d( | d2)\) \breathe g,\( |
+  a | e'~ | e~ | e \breathe | a,\( | e' | d~ | d2\) \breathe g,\( |
   % 123
-  d'1( | d2)\) \breathe g | d g, | d' g | d1( | d | d | d) | c( | c2. c8) r8 |
+  d'1~ | d2\) \breathe g | d g, | d' g | d1~ | d~ | d~ | d | c~ | c2.~ c8 r8 |
   % 133
   \compressMMRests {R1*19} |
   % 152
   \key d \major
   \compressMMRests {R1*36} |
   % 188
-  a1( | a) | b | c | b( | b) | a( | a) | b( | b) | cis( | cis) | d |
+  a1~ | a | b | c | b~ | b | a~ | a | b~ | b | cis~ | cis | d |
   % 200
-  e | fis | d( | d) | cis |
+  e | fis | d~ | d | cis |
   % 206
   \time 12/8
-  d1.( | d | d8) r8 r4 r1 |
+  d1.~ | d~ | d8 r8 r4 r1 |
 }
 
 tenors_deux = \relative c {
@@ -54,33 +53,33 @@ tenors_deux = \relative c {
 
   % 54
   \bar ""
-  d1\( | g | a | d( | d2)\) \breathe g,( | a1 | d)( | d1 | d | d | d)
+  d1\( | g | a | d~ | d2\) \breathe g,( | a1 | d)~ | d1~ | d~ | d~ | d
   % 65
-  c( | c | c | c2. c8) r8 |
+  c~ | c~ | c~ | c2.~ c8 r8 |
   % en fait, 20 mesures
   \compressMMRests {R1*20} |
   % 89
-  a1( | a) | b( | b) | d( | d) | c( | c) | e( | e | e | e) 
+  a1~ | a | b~ | b | d~ | d | c~ | c | e~ | e~ | e~ | e
   % 101
-  d( | d | d | d2. d8 r8) | r1 | r1 |
+  d~ | d~ | d~ | d2.~ d8 r8) | r1 | r1 |
   % 107
-  d,1\( | a'( | a | a)\) \breathe | f\( | c'( | c | c)\) \breathe
+  d,1\( | a'~ | a~ | a\) \breathe | f\( | c'~ | c~ | c\) \breathe
   % 115
-  a | e'( | e | e) \breathe | a,\( | e' | d( | d2)\) \breathe  g,\( |
+  a | e'~ | e~ | e \breathe | a,\( | e' | d~ | d2\) \breathe  g,\( |
   % 123
-  d'1( | d2)\) \breathe g | d g, | d' g | d1( | d | d | d) | c( | c2. c8) r8 |
+  d'1~ | d2\) \breathe g | d g, | d' g | d1~ | d~ | d~ | d | c~ | c2.~ c8) r8 |
   % 133
   \compressMMRests {R1*19} |
   % 152
   \key d \major
   \compressMMRests {R1*36} |
   % 188
-  fis,1( | fis | fis | fis) | g( | g) | fis( | fis) | fis( | fis) | a( | a) |
+  fis,1~ | fis~ | fis~ | fis | g~ | g | fis~ | fis | fis~ | fis | a~ | a |
   % 200
-  b | cis | a( | a) | b | a |
+  b | cis | a~ | a | b | a |
   % 206
   \time 12/8
-  d1.( | d | d8) r8 r4 r1 |
+  d1.~ | d~ | d8 r8 r4 r1 |
 }
 
 basses = \relative c {
@@ -89,28 +88,28 @@ basses = \relative c {
 
   % 54
   \bar ""
-  d1\( | g | a | d( | d2)\) \breathe g,( | a1 | d)( | d1 | d | d | d)  
+  d1\( | g | a | d~ | d2\) \breathe g,( | a1 | d)~ | d1~ | d~ | d~ | d
   % 65
-  c( | c | c | c2. c8) r8 |
+  c~ | c~ | c~ | c2.~ c8) r8 |
   % en fait, 20 mesures
   \compressMMRests {R1*20} |
   % 89
-  d,1( | d) | g( | g) | bes( | bes) | a( | a) | c( | c) | a( | a)
+  d,1~ | d | g~ | g | bes~ | bes | a~ | a | c~ | c | a~ | a
   % 101
-  d( | d | d | d2. d8 r8) | r1 | r1 |
+  d~ | d~ | d~ | d2.~ d8 r8 | r1 | r1 |
   % 107
-  d,1\( | a'( | a | a)\) \breathe | f\( | c'( | c | c)\) \breathe
+  d,1\( | a'~ | a~ | a\) \breathe | f\( | c'~ | c~ | c\) \breathe
   % 115
-  a | e'( | e | e) \breathe | a,\( | e' | d( | d2)\) \breathe g,\( |
+  a | e'~ | e~ | e \breathe | a,\( | e' | d~ | d2\) \breathe g,\( |
   % 123
-  d'1( | d2)\) r2 | R1*8
+  d'1~ | d2\) r2 | R1*8
   % 133
   \compressMMRests {R1*19} |
   % 152
   \key d \major
   \compressMMRests {R1*36} |
   % 188
-  d,1 | cis | b | a | g( | g) | d'( | d) | b~ | b | fis'~ | fis |
+  d,1 | cis | b | a | g~ | g | d'~ | d | b~ | b | fis'~ | fis |
   % 200
   g | a | d,~ | d | g | a2.~ a8 r8 |
   % 206
