@@ -45,6 +45,12 @@ tenors = \relative c {
   % 206
   \time 12/8
   d1.~ | d~ | d8 r8 r4 r1 |
+
+  % 209
+  \key c \major
+  \time 3/4
+  \compressMMRests {R2.*33} |
+  r4 g, c | g'2. | R2.*3 | r4 g, c | g2. | R2.*4 | r4 g c | g'2.~ | g |
 }
 
 tenors_deux = \relative c {
@@ -61,13 +67,13 @@ tenors_deux = \relative c {
   % 89
   a1~ | a | b~ | b | d~ | d | c~ | c | e~ | e~ | e~ | e
   % 101
-  d~ | d~ | d~ | d2.~ d8 r8) | r1 | r1 |
+  d~ | d~ | d~ | d2.~ d8 r8 | r1 | r1 |
   % 107
   d,1\( | a'~ | a~ | a\) \breathe | f\( | c'~ | c~ | c\) \breathe
   % 115
   a | e'~ | e~ | e \breathe | a,\( | e' | d~ | d2\) \breathe  g,\( |
   % 123
-  d'1~ | d2\) \breathe g | d g, | d' g | d1~ | d~ | d~ | d | c~ | c2.~ c8) r8 |
+  d'1~ | d2\) \breathe g | d g, | d' g | d1~ | d~ | d~ | d | c~ | c2.~ c8 r8 |
   % 133
   \compressMMRests {R1*19} |
   % 152
@@ -80,6 +86,12 @@ tenors_deux = \relative c {
   % 206
   \time 12/8
   d1.~ | d~ | d8 r8 r4 r1 |
+
+  % 209
+  \key c \major
+  \time 3/4
+  \compressMMRests {R2.*33} |
+  R2.*14 |
 }
 
 basses = \relative c {
@@ -90,7 +102,7 @@ basses = \relative c {
   \bar ""
   d1\( | g | a | d~ | d2\) \breathe g,( | a1 | d)~ | d1~ | d~ | d~ | d
   % 65
-  c~ | c~ | c~ | c2.~ c8) r8 |
+  c~ | c~ | c~ | c2.~ c8 r8 |
   % en fait, 20 mesures
   \compressMMRests {R1*20} |
   % 89
@@ -115,6 +127,12 @@ basses = \relative c {
   % 206
   \time 12/8
   r1. | r1. | r1. |
+
+  % 209
+  \key c \major
+  \time 3/4
+  \compressMMRests {R2.*33} |
+  R2.*14 |
 }
 
 \score{
