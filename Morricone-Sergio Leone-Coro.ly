@@ -196,7 +196,6 @@ tenors_deux = \relative c {
   1) | g2( e | d1) \breathe | 2( a'~ | 1) | c2( a~ | 1) |
   %522
   a,2( e'~ | 1) | g2( e | d1) \breathe | 2( a'~ | 1) | c2( a~ | 8) r8 r4 r2 |
-
 }
 
 basses = \relative c {
@@ -274,6 +273,17 @@ basses = \relative c {
   % 456
   R1*9 | 
 
+  % 465
+  \compressMMRests {R1*30} |
+  R1*6 |
+  % 501
+  R1*5 | a,2( e'~ | e1) |
+  % 508
+  g2( e | d1) \breathe | 2( a'~ | 1) | c2( a~ | 1) | a,2( e'~
+  % 515
+  1) | g2( e | d1) \breathe | 2( a'~ | 1) | c2( a~ | 1) |
+  %522
+  a,2( e'~ | 1) | g2( e | d1) \breathe | 2( a'~ | 1) | c2( a~ | 8) r8 r4 r2 |
 }
 
 \score{
