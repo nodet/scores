@@ -79,7 +79,7 @@ tenors = \relative c {
   \compressMMRests {R1*49} |
 
   % 425
-  r1 | r1 | r1 | c, | d | f | g |
+  r1 | r1 | r1 | c, | d | f | a |
   % 432
   c | b~ | 2 d | c1( | d) | e~ | e~ |
   % 439
