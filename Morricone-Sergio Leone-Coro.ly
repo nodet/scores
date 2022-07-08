@@ -71,6 +71,27 @@ tenors = \relative c {
   b~ | b | e,~ | e | fis~ | 2~ 8 r8 | b2.~ | b | a~ | a | b~ | b | a~ |
   % 339                             346
   a | b~ | b~ | b~ | b~ | b~ | b~ | b~ | b8 r8 r4 r4 |
+
+  % 348
+  \key c \major
+  \compressMMRests {R2.*28} |
+  \time 4/4
+  \compressMMRests {R1*49} |
+
+  % 425
+  r1 | r1 | r1 | c, | d | f | g |
+  % 432
+  c | b~ | 2 d | c1( | d) | e~ | e~ |
+  % 439
+  e~ | e | d~ | d | f~ | f \breathe |
+  % 445
+  e~ | e~ | e~ | e | d~ | d |
+  % 451
+  f~ | f | e~ | e~ | 8 r r4 r2 | r2 e |
+  % 457
+  d1~ | 2 r | r g( | e1~ | 2) r |
+  % 462
+  b'2( g~ | 1~ | 4~ 8) r8 r2 |
 }
 
 tenors_deux = \relative c {
