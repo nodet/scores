@@ -17,9 +17,9 @@ tenors = \relative c {
   \clef "G_8"
   \key f \major
 
-  % 54
+  % 55
   \bar ""
-  d1\( | g | a | d~ | d2\) \breathe g,( | a1 | d)~ | d1~ | d~ | d~ | d
+  d1\( | g | a | d~ | d2\) \breathe g,( | a2 d)~ | d1~ | d~ | d~ | d
   % 65
   c~ | c~ | c~ | c2.~ c8 r8 |
   \compressMMRests {R1*20} |
@@ -50,7 +50,7 @@ tenors = \relative c {
   \key c \major
   \time 3/4
   \compressMMRests {R2.*33} |
-  r4 g, c | g'2. | R2.*3 | r4 g, c | g2. | R2.*4 | r4 g c | g'2.~ | g |
+  r4 g, c | g'2. | R2.*3 | r4 g, c | a2. | R2.*4 | r4 g c | g'2.~ | g |
   
   % 255
   \key bes \major
@@ -110,9 +110,9 @@ tenors_deux = \relative c {
   \clef "G_8"
   \key f \major
 
-  % 54
+  % 55
   \bar ""
-  d1\( | g | a | d~ | d2\) \breathe g,( | a1 | d)~ | d1~ | d~ | d~ | d
+  d1\( | g | a | d~ | d2\) \breathe g,( | a2 d)~ | d1~ | d~ | d~ | d
   % 65
   c~ | c~ | c~ | c2.~ c8 r8 |
   % en fait, 20 mesures
@@ -202,9 +202,9 @@ basses = \relative c {
   \clef bass
   \key f \major
 
-  % 54
+  % 55
   \bar ""
-  d1\( | g | a | d~ | d2\) \breathe g,( | a1 | d)~ | d1~ | d~ | d~ | d
+  d1\( | g | a | d~ | d2\) \breathe g,( | a2 d)~ | d1~ | d~ | d~ | d
   % 65
   c~ | c~ | c~ | c2.~ c8 r8 |
   % en fait, 20 mesures
@@ -250,9 +250,9 @@ basses = \relative c {
   \key e \major
   e2.~ | e~ | e | dis | cis | b | a~ | a | e'~ | e | ais | dis, | gis~ | gis |
   % 326                                        333
-  cis,~ | cis | a~ | a | b~ | 2~ 8 r8 | e2.~ | e | e~ | e | e~ | e~ | e~ |
+  cis,~ | cis | a~ | a | b~ | 2~ 8 r8 | e2.~ | e~ | e~ | e~ | e~ | e~ | e~ |
   % 339                            346
-  e | e~ | e~ | e~ | e | e~ | e~ | e~ | 8 r8 r4 r4 |
+  e~ | e~ | e~ | e~ | e | e~ | e~ | e~ | 8 r8 r4 r4 |
 
   % 348
   \key c \major
@@ -289,7 +289,7 @@ basses = \relative c {
 \score{
   \new ChoirStaff <<
 
-  \set Score.currentBarNumber = #54
+  \set Score.currentBarNumber = #55
   \set Score.barNumberVisibility = #all-bar-numbers-visible
   \time 4/4
   %\tempo 4 = 69
