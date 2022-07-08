@@ -124,6 +124,14 @@ tenors_deux = \relative c {
   f,~ | 2 bes4~| 2.~ | 4 ges2~ | 2. | aes~ | 2  r4 | R2. | r4 aes2~ | 2. |
   % 307
   ees'2.~ | 2 des4~ | 2.~ | 4 aes2~ | 2.
+
+  % 312                                    319
+  \key e \major
+  b~ | b~ | b | bis | cis | e,~ | e~ | e | b'~ | b | cis | cis | b~ | b |
+  % 326                                            333
+  gis~ | gis | e~ | e | fis~ | 2~ 8 r8 | gis2.~ | gis | fis~ | fis | gis~ | gis | fis~ |
+  % 339                               344
+  fis | gis~ | 2.~ | 2.~ | 4 r4 r4 | R2.*4 |
 }
 
 basses = \relative c {
