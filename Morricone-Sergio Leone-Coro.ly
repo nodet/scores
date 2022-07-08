@@ -229,6 +229,26 @@ basses = \relative c {
   cis,~ | cis | a~ | a | b~ | 2~ 8 r8 | e2.~ | e | e~ | e | e~ | e~ | e~ |
   % 339                            346
   e | e~ | e~ | e~ | e | e~ | e~ | e~ | 8 r8 r4 r4 |
+
+  % 348
+  \key c \major
+  \compressMMRests {R2.*28} |
+  \time 4/4
+  \compressMMRests {R1*49} |
+
+  % 425
+  a,1~ | a | c~ | c | d | f | a |
+  % 432
+  c | b | e, | a | d, | a'~ | a |
+  % 439
+  g( | c,) | d~ | d | f~ | f \breathe |
+  % 445
+  a~ | a | g | c, | d~ | d |
+  % 451
+  f~ | f | a~ | a~ | 8 r8 r4 r2 |
+  % 456
+  R1*9 | 
+
 }
 
 \score{
