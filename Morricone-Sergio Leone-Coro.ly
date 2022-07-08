@@ -181,6 +181,14 @@ basses = \relative c {
   % 284
   \key ges \major
   R2.*4 | r2 bes,4~ | 2. | r4 ges'2~ | 2. | R2.*11 | r2 des4~ | 2.~ | 4 r2 | R2.*6 |
+
+  % 312                                319
+  \key e \major
+  e2.~ | e~ | e | dis | cis | b | a~ | a | e'~ | e | ais | dis, | gis~ | gis |
+  % 326                                        333
+  cis,~ | cis | a~ | a | b~ | 2~ 8 r8 | e2.~ | e | e~ | e | e~ | e~ | e~ |
+  % 339                            346
+  e | e~ | e~ | e~ | e | e~ | e~ | e~ | 8 r8 r4 r4 |
 }
 
 \score{
