@@ -92,6 +92,18 @@ tenors = \relative c {
   d1~ | 2 r | r g( | e1~ | 2) r |
   % 462
   b'2( g~ | 1~ | 4~ 8) r8 r2 |
+
+  % 465
+  \compressMMRests {R1*30} |
+  a,1 | c | e | d2 c | b e~ | e d |
+  % 501
+  c1~ | c | d~ | d | R1 | a,2( | e'~ | e1) |
+  % 508
+  g2( e | d1) \breathe | 2( a'~ | 1) | c2( | a~ | 1) | a,2( e'~
+  % 515
+  1) | g2( e | d1) \breathe | 2( a'~ | 1) | c2( a~ | 1) |
+  %522
+  a,2( e'~ | 1) | g2( e | d1) \breathe | 2( a'~ | 1) | c2( a~ | 8) r8 r4 r2 |
 }
 
 tenors_deux = \relative c {
