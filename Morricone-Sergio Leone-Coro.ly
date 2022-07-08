@@ -63,6 +63,14 @@ tenors = \relative c {
   f,~ | 2 bes4~| 2.~ | 4 ges2~ | 2. | aes~ | 2  r4 | R2. | r4 aes2~ | 2. |
   % 307
   ees'2.~ | 2 des4~ | 2.~ | 4 aes2~ | 2.
+
+  % 312                                    319
+  \key e \major
+  b~ | b~ | b | bis | cis~ | cis~ | cis~ | cis | b~ | b | cis~ | cis | b~ | b~ |
+  % 326                                       333
+  b~ | b | e,~ | e | fis~ | 2~ 8 r8 | b2.~ | b | a~ | a | b~ | b | a~ |
+  % 339                             346
+  a | b~ | b~ | b~ | b~ | b~ | b~ | b~ | b8 r8 r4 r4 |
 }
 
 tenors_deux = \relative c {
