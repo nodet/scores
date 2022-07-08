@@ -153,6 +153,25 @@ tenors_deux = \relative c {
   gis~ | gis | e~ | e | fis~ | 2~ 8 r8 | gis2.~ | gis | fis~ | fis | gis~ | gis | fis~ |
   % 339                               344
   fis | gis~ | 2.~ | 2.~ | 4 r4 r4 | R2.*4 |
+
+  % 348
+  \key c \major
+  \compressMMRests {R2.*28} |
+  \time 4/4
+  \compressMMRests {R1*49} |
+
+  % 425
+  r1 | a,1 | c~ | c | d | f | a |
+  % 432
+  c | b~ | 2 d | c1( | a) | c~ | c~ |
+  % 439
+  c~ | c | a~ | a | c~ | c \breathe |
+  % 445
+  c~ | c~ | c~ | c | a~ | a |
+  % 451
+  c~ | c~ | c~ | c~ | 8 r8 r4 r2 |
+  % 456
+  R1*9 | 
 }
 
 basses = \relative c {
