@@ -43,22 +43,17 @@ basses = \relative c {
   % 165
   r2 r4 r8 ees~ | 1~ | 2.. r8 | \compressMMRests {R1*2}
   r2 r4 r8 g,!~ | 1~ | 2.. r8 | 
-  
-  
 }
 
 \score{
   \new ChoirStaff <<
 
-  %\set Score.currentBarNumber = #55
-  %\set Score.barNumberVisibility = #all-bar-numbers-visible
-  \time 4/4
-  %\tempo 4 = 69
+    %\set Score.currentBarNumber = #55
+    %\set Score.barNumberVisibility = #all-bar-numbers-visible
+    \time 4/4
+    %\tempo 4 = 69
 
-    \new Voice = "B."  % \with { \consists Ambitus_engraver } 
-    {
-      \basses
-    }    
+    \new Voice = "B." { \basses }    
   >>
   \layout { }
   \midi { }
