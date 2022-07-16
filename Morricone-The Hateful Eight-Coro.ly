@@ -14,6 +14,39 @@
 }
 
 
+altos = \relative c {
+  \clef "G"
+  \key c \major
+  \dynamicUp
+
+  {R1*3} |
+  \xNotesOn
+  r4\mf e'8-+\open r e-+\open r r4 | {R1*3}
+  % 118
+  r4\f e8-+\open r e-+\open r r4 | {R1*3}
+  r4 e8-+\open r e-+\open r r4 | {R1*3}
+  r4 e8-+\open r e-+\open r r4 | {R1*4}
+  \xNotesOff
+  
+  %131
+  \dynamicNeutral
+  c'1~\f | 1~ | 1~ | 1~ | 1~ | 1~ | 1~ | 1~ | 1~ | \time 1/4 8 r8 | \time 4/4
+
+  % 141
+  \compressMMRests {R1*4} | \compressMMRests {R1*3} | \compressMMRests {R1*2} |
+  r2 r4 r8 fis,~ | 1~ | 2.. r8 | \compressMMRests {R1*2}
+  
+  % 156
+  r2 r4 r8 b~ | 1~ | 2.. r8 | \compressMMRests {R1*2}
+  r2 r4 r8 des~ | 1~ | 2.. r8 | \compressMMRests {R1*2}
+  
+  % 165
+  r2 r4 r8 bes~ | 1~ | 2.. r8 | \compressMMRests {R1*2}
+  r2 r4 r8 e,!~ | 1~ | 2.. r8 | 
+}
+
+
+
 tenors = \relative c {
   \clef "G_8"
   \key c \major
@@ -86,6 +119,7 @@ basses = \relative c {
     \time 4/4
     %\tempo 4 = 69
 
+    \new Voice = "A." { \altos }
     \new Voice = "T." { \tenors }
     \new Voice = "B." { \basses }    
   >>
