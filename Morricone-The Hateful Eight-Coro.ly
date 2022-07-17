@@ -136,6 +136,12 @@ basses = \relative c {
   r2 r4 r8 a,!~ | 1~ | 2.. r8 |
 }
 
+violini = \relative c' {
+  r4 c16 d ees f ges8 r8 f16 ees d r16 |
+  r8 ees16 d c8 r8 c16 d ees f aes g f ees |
+  ges f ees d ees d c b r4 b16 c d r16 |
+}
+
 \score{
   \new ChoirStaff <<
 
@@ -147,10 +153,27 @@ basses = \relative c {
     % Allow printing the bar number at beginning of score
     \bar ""
 
-    \new Voice = "S." { \global \sopranes }
-    \new Voice = "A." { \global \altos }
-    \new Voice = "T." { \global \tenors }
-    \new Voice = "B." { \global \basses }
+    \new Staff <<
+       \set Staff.midiInstrument = "violin"
+       \new Voice = "violin" { \global \violini }
+    >>
+
+    \new Staff <<
+      \set Staff.midiInstrument = "choir aahs"
+      \new Voice = "S." { \global \sopranes }
+    >>
+    \new Staff <<
+      \set Staff.midiInstrument = "choir aahs"
+      \new Voice = "A." { \global \altos }
+    >>
+    \new Staff <<
+      \set Staff.midiInstrument = "choir aahs"
+      \new Voice = "T." { \global \tenors }
+    >>
+    \new Staff <<
+      \set Staff.midiInstrument = "choir aahs"
+      \new Voice = "B." { \global \basses }
+    >>
   >>
   \layout { }
   \midi { }
