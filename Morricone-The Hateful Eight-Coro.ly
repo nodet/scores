@@ -14,11 +14,13 @@
 }
 
 
-altos = \relative c {
-  \clef "G"
+global = {
   \key c \major
   \dynamicUp
+}
 
+
+sopranes = \relative c {
   {R1*3} |
   \xNotesOn
   r4\mf e'8-+\open r e-+\open r r4 | {R1*3}
@@ -27,7 +29,36 @@ altos = \relative c {
   r4 e8-+\open r e-+\open r r4 | {R1*3}
   r4 e8-+\open r e-+\open r r4 | {R1*4}
   \xNotesOff
-  
+
+  %131
+  \dynamicNeutral
+  c'1~\f | 1~ | 1~ | 1~ | 1~ | 1~ | 1~ | 1~ | 1~ | \time 1/4 8 r8 | \time 4/4
+
+  % 141
+  \compressMMRests {R1*4} | \compressMMRests {R1*3} | \compressMMRests {R1*2} |
+  r2 r4 r8 d~ | 1~ | 2.. r8 | \compressMMRests {R1*2}
+
+  % 156
+  r2 r4 r8 dis~ | 1~ | 2.. r8 | \compressMMRests {R1*2}
+  r2 r4 r8 f~ | 1~ | 2.. r8 | \compressMMRests {R1*2}
+
+  % 165
+  r2 r4 r8 ees~ | 1~ | 2.. r8 | \compressMMRests {R1*2}
+  r2 r4 r8 c~ | 1~ | 2.. r8 |
+}
+
+
+
+altos = \relative c {
+  {R1*3} |
+  \xNotesOn
+  r4\mf e'8-+\open r e-+\open r r4 | {R1*3}
+  % 118
+  r4\f e8-+\open r e-+\open r r4 | {R1*3}
+  r4 e8-+\open r e-+\open r r4 | {R1*3}
+  r4 e8-+\open r e-+\open r r4 | {R1*4}
+  \xNotesOff
+
   %131
   \dynamicNeutral
   c'1~\f | 1~ | 1~ | 1~ | 1~ | 1~ | 1~ | 1~ | 1~ | \time 1/4 8 r8 | \time 4/4
@@ -35,22 +66,20 @@ altos = \relative c {
   % 141
   \compressMMRests {R1*4} | \compressMMRests {R1*3} | \compressMMRests {R1*2} |
   r2 r4 r8 fis,~ | 1~ | 2.. r8 | \compressMMRests {R1*2}
-  
+
   % 156
   r2 r4 r8 b~ | 1~ | 2.. r8 | \compressMMRests {R1*2}
   r2 r4 r8 des~ | 1~ | 2.. r8 | \compressMMRests {R1*2}
-  
+
   % 165
   r2 r4 r8 bes~ | 1~ | 2.. r8 | \compressMMRests {R1*2}
-  r2 r4 r8 e,!~ | 1~ | 2.. r8 | 
+  r2 r4 r8 e,!~ | 1~ | 2.. r8 |
 }
 
 
 
 tenors = \relative c {
   \clef "G_8"
-  \key c \major
-  \dynamicUp
 
   {R1*3} |
   \xNotesOn
@@ -60,7 +89,7 @@ tenors = \relative c {
   r4 e8-+\open r e-+\open r r4 | {R1*3}
   r4 e8-+\open r e-+\open r r4 | {R1*4}
   \xNotesOff
-  
+
   %131
   \dynamicNeutral
   {R1*6} | c'1~\f | 1~ | 1~ | \time 1/4 8 r8 | \time 4/4
@@ -68,23 +97,19 @@ tenors = \relative c {
   % 141
   \compressMMRests {R1*4} | \compressMMRests {R1*3} | \compressMMRests {R1*2} |
   r2 r4 r8 d~ | 1~ | 2.. r8 | \compressMMRests {R1*2}
-  
+
   % 156
   r2 r4 r8 dis~ | 1~ | 2.. r8 | \compressMMRests {R1*2}
   r2 r4 r8 f~ | 1~ | 2.. r8 | \compressMMRests {R1*2}
-  
+
   % 165
   r2 r4 r8 ges~ | 1~ | 2.. r8 | \compressMMRests {R1*2}
-  r2 r4 r8 c,~ | 1~ | 2.. r8 | 
+  r2 r4 r8 c,~ | 1~ | 2.. r8 |
 }
 
 basses = \relative c {
   \clef bass
-  \key c \major
-  \dynamicUp
 
-  \bar ""  % Allow printing the bar number at beginning of score
-  
   {R1*3} |
   \xNotesOn
   r4\mf e,8-+\open r e-+\open r r4 | {R1*3}
@@ -93,7 +118,7 @@ basses = \relative c {
   r4 e8-+\open r e-+\open r r4 | {R1*3}
   r4 e8-+\open r e-+\open r r4 | {R1*4}
   \xNotesOff
-  
+
   %131
   \dynamicNeutral
   {R1*6} | c''1~\f | 1~ | 1~ | \time 1/4 8 r8 | \time 4/4
@@ -101,14 +126,14 @@ basses = \relative c {
   % 141
   \compressMMRests {R1*4} | \compressMMRests {R1*3} | \compressMMRests {R1*2} |
   r2 r4 r8 b~ | 1~ | 2.. r8 | \compressMMRests {R1*2}
-  
+
   % 156
   r2 r4 r8 gis~ | 1~ | 2.. r8 | \compressMMRests {R1*2}
   r2 r4 r8 bes~ | 1~ | 2.. r8 | \compressMMRests {R1*2}
-  
+
   % 165
   r2 r4 r8 ees~ | 1~ | 2.. r8 | \compressMMRests {R1*2}
-  r2 r4 r8 a,!~ | 1~ | 2.. r8 | 
+  r2 r4 r8 a,!~ | 1~ | 2.. r8 |
 }
 
 \score{
@@ -119,9 +144,13 @@ basses = \relative c {
     \time 4/4
     %\tempo 4 = 69
 
-    \new Voice = "A." { \altos }
-    \new Voice = "T." { \tenors }
-    \new Voice = "B." { \basses }    
+    % Allow printing the bar number at beginning of score
+    \bar ""
+
+    \new Voice = "S." { \global \sopranes }
+    \new Voice = "A." { \global \altos }
+    \new Voice = "T." { \global \tenors }
+    \new Voice = "B." { \global \basses }
   >>
   \layout { }
   \midi { }
