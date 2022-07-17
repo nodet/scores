@@ -23,34 +23,34 @@ basses = \relative c {
   \clef bass
 
   % 255
-  d2 e | fis g( | g) fis( | 1)
+  d2 e | fis g~ | g fis~ | 1
 
   % 259
-  g2 a | d, \breathe cis | | b( a) | g \breathe g' | d4 cis b( a) |
+  e2 a | d, \breathe cis | | b( a) | g \breathe g' | d4 cis b( a) |
 
   % 264
-  g1 | a( | a) | d'4 d,2 d'4\( |
+  g1 | a~ | a | d'4 d,2 d'4\( |
 
   % 268
-  d,2 e4 fis\) | g2 d | e4( fis) g2\((
+  d,2 e4 fis\) | g2 d | e4( fis) g2~(
 
   % 271
-  g8) a16 g fis2.( | fis8) g16 fis e4 d2\) | r8 g,( a b) cis4 d |
+  g8 a16 g fis2.~ | fis8 g16 fis e4 d2) | r8 g,( a b) cis4 d |
 
   % 274
   a'( g fis e | d2) d'4( cis | b2 a) |
 
   % 277
-  g2.( g8) r8 | d4( cis b) a | g2( g') |
+  g2.~ g8 r8 | d4( cis b) a | g2( g') |
 
   % 280
-  a a | d,2. d'4( | d) d,( e fis) |
+  a a | d,2. d'4~ | d d,( e fis) |
 
   % 283
-  g2 a4. d,8 | e4( fis) g2( | g4) fis2\(( fis8 d) |
+  g2 a4. d,8 | e4( fis) g2~ | g4 fis2~( fis8 d |
 
   % 286
-  b'4 a\) d,2 | r8 g,( a b cis4) d | a'( g fis) e |
+  b'4 a) d,2 | r8 g,( a b cis4) d | a'( g fis) e |
 
   % 289
   d2. cis4 | b4( b' a d) | g,2.. r8 |
@@ -71,7 +71,7 @@ basses = \relative c {
   d( cis' b a) | g( fis e d | d' cis b a |
 
   % 307
-  g) fis( e) d | d d d2( | d8) r8 r4 r2 |
+  g) fis( e) d | d d d2~ | d8 r8 r4 r2 |
 }
 
 \score{
