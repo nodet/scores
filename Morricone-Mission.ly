@@ -20,6 +20,52 @@ global = {
 }
 
 
+altos = \relative c' {
+   % 255
+   d2. cis4 | d2. cis8( d | e2 a, | g4) g'8( fis g2~ |
+
+   % 259
+   4.) \breathe fis8 e2 | fis1~ | 2~ 8 \breathe fis g a | b1 | a4. d,8 2~ |
+   % 264
+   4 \breathe 4~( 2~ | 4 b e d | 2) cis | a'8( d4 cis8) b4 a |
+
+   % 268
+   g( fis e) d~ | 4~ 8 r8 r4 a4( | a'2~ 8 g) b4 |
+   % 271
+   cis( d8 cis16 b) a4( b | 8 g a2 fis8 d | g4 fis e fis)
+
+   % 274
+   e~ 8 r8 g4( a~ | 2 b4 a | fis~ 8) r8 r4 d4( |
+   % 277
+   g fis d g) | fis d g fis | d( b' a g8 b) |
+
+   % 280
+   cis2 2 | r4 fis,4( b a) | g( fis) \breathe e d( |
+   % 283
+   b'4. cis16 b a4. fis8) | g( a4 d,8 b'4. a16 b) | cis4 \breathe d4.( cis8) b4~ |
+
+   % 286
+   4 cis( a2 | b4 a4.) a8 8 b | cis4.( a8 b4 a~ |
+   % 289
+   8 g fis4) d2~ | 8 r8 fis2 d4 | b'2.( d4~ |
+
+   % 292
+   4. fis,8) b2~ | 4. a8 cis( b4 a8) | 2. 4 |
+   % 295
+   a2( b~ | 2) a | 1(
+
+   % 298
+   b~ | 4 g) a2 | 2( d,4 a') |
+   % 301
+   b( d g,) a~( | 4 fis g a | b d, g) a |
+
+   % 304
+   2( d,4 a') | b( d g,) a~( | 4 fis g a |
+   % 307
+   b d, g) a | fis4 4 2~ | 8 r8 r4 r2 |
+
+}
+
 tenors = \relative c {
    \clef "G_8"
 
@@ -132,6 +178,10 @@ basses = \relative c {
     \set Score.barNumberVisibility = #all-bar-numbers-visible
     \bar ""
 
+    \new Staff <<
+      \set Staff.midiInstrument = "choir aahs"
+      \new Voice = "T." { \global \altos }
+    >>
     \new Staff <<
       \set Staff.midiInstrument = "choir aahs"
       \new Voice = "T." { \global \tenors }
