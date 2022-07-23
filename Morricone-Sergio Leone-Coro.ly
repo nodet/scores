@@ -53,7 +53,7 @@ sopranos = \relative c'' {
   \compressMMRests {R2.*28} |
 
   % 284
-  \key ges \major
+  \key des \major
   \compressMMRests {R2.*28} |
 
    % 312
@@ -71,7 +71,7 @@ sopranos = \relative c'' {
    2. | gis~ | 2.~ | 2.~ | 2. | g~ | 2.~ |
 
    % 346
-   2.~ | 8 r8 r4 r4 | \key c \major
+   2.~ | g8 r8 r4 r4 | \key c \major
    \compressMMRests {R2.*28} |
 
    \time 4/4
@@ -104,6 +104,109 @@ sopranos = \relative c'' {
    % 522
    a e' | d a | e' d | a e' | d a | e' d | a e'~ | 8 r8 r4 r2 |
 }
+
+
+sopranos_deux = \relative c'' {
+   \key f \major
+   R1*34 |
+
+   % 89
+   a1~ |
+
+   % 90
+   1 | b~ | 1 | d~ | 1 |
+   % 95
+   c~ | 1 | e~ | 1~ | 1~ |
+
+   % 100
+   1( | f2.~ 8) r8 | R1*50
+
+   % 152
+   \key d \major  | R1*36
+
+   % 188
+   fis,1~ | 1~ | 1( | g2 fis) | g1~
+
+   % 193
+   1 | fis~ | 1 | fis~ | 1 | a~ | 1
+   % 200
+   b | cis~ | 1 | c | b | a | \time 12/8 a1.~ |
+
+   % 207
+   1.~ | 8 r8 r4 r1 |
+
+  % 209
+  \key c \major
+  \time 3/4
+  \compressMMRests {R2.*47} |
+
+  % 255
+  \key bes \major
+  \compressMMRests {R2.*28} |
+
+  % 284
+  \key des \major
+  r4 aes2~ | 2.~ |
+  % 286
+  2 ees4~ | 2.~ | 4 aes2~ | 2. | des~ | 2 f,4~ | 2. |
+
+  % 293
+  4 f'2~ | 2. | c~ | 2 f,4~ | 2.~ | 4 a2~ | 2. |
+  % 300
+  bes~ | 2 ges4~ | 2. | 4 a2~ | 2. | ees'~ | 2 ges,4~ |
+
+  % 307
+  2. | r4 f'2~ | 2. | ges~ | 2~ 8 r8 |
+
+   % 312
+   \key e \major
+   gis2.~ | 2.~ | 2.~ | 2.~ | 2.~ | 2.~ | 2.~ |
+
+   % 319
+   2.~ | 2.~ | 2.~ | 2. | fisis | fis~ | fis~ |
+   % 326
+   fis | e~ | 2.~ | 2. | fis~ | 2~ 8 r8 | gis2.~ |
+
+   % 333
+   2. | fis~ | 2. | gis~ | 2. | fis~ |
+   % 339
+   2. | gis~ | 2.~ | 2.~ | 2. | g~ | 2.~ |
+
+   % 346
+   2.~ | g8 r8 r4 r4 | \key c \major
+   \compressMMRests {R2.*28} |
+
+   \time 4/4
+   \compressMMRests {R1*49} |
+
+   % 425
+   R1*10 |
+   a,1~ | a | c~ | 1~ |
+
+   % 439
+   1~ | 1 | a~ | 1 | c~ | 1 \breathe |
+   % 445
+   c~ | 1~ | 1~ | 1 | a~ | 1 |
+
+   % 451
+   c~ | 1 | 1~ | 1~ | 8 r8 r4 r2 |
+
+   \compressMMRests {R1*43} |
+
+   % 498
+   e,2 gis | b1 |
+   % 501
+   a1~ | 1 | 1~ | 1 | c~ | 1 | e~ |
+
+   % 508
+   1 | d~ | 1 | c~ | 2.~ 8 r8 | e2 d | a e' |
+   % 515
+   d a | e' d | a e' | d a | e' d | a e'~ | 2 d |
+
+   % 522
+   a e' | d a | e' d | a e' | d a | e' d | a e'~ | 8 r8 r4 r2 |
+}
+
 
 
 tenors = \relative c {
@@ -150,7 +253,7 @@ tenors = \relative c {
   \compressMMRests {R2.*28} |
 
   % 284
-  \key ges \major
+  \key des \major
   R2. | r4 des,2~ | 2. | a'( | bes2) r4 | R2.*3 | des2.~ | 2 g,4~ | 2.~ | 4 ces2~ | 2. |
   % 297
   f,~ | 2 bes4~| 2.~ | 4 ges2~ | 2. | aes~ | 2  r4 | R2. | r4 aes2~ | 2. |
@@ -244,7 +347,7 @@ tenors_deux = \relative c {
   \compressMMRests {R2.*28} |
 
   % 284
-  \key ges \major
+  \key des \major
   R2. | r4 des,2~ | 2. | a'( | bes2) r4 | R2.*3 | des2.~ | 2 g,4~ | 2.~ | 4 ces2~ | 2. |
   % 297
   f,~ | 2 bes4~| 2.~ | 4 ges2~ | 2. | aes~ | 2  r4 | R2. | r4 aes2~ | 2. |
@@ -336,7 +439,7 @@ basses = \relative c {
   \compressMMRests {R2.*28} |
 
   % 284
-  \key ges \major
+  \key des \major
   R2.*4 | r2 bes,4~ | 2. | r4 ges'2~ | 2. | R2.*11 | r2 des4~ | 2.~ | 4 r2 | R2.*6 |
 
   % 312                                319
@@ -393,7 +496,12 @@ basses = \relative c {
           \sopranos
       }
     >>
-
+    \new Staff <<
+      \set Staff.midiInstrument = "choir aahs"
+      \new Voice = "S. II" \with { \consists Ambitus_engraver } {
+          \sopranos_deux
+      }
+    >>
 
     \new Voice = "T. I" \with { \consists Ambitus_engraver } {
       \tenors
