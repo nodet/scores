@@ -13,6 +13,55 @@
   tagline = ""
 }
 
+
+sopranos = \relative c'' {
+   \key f \major
+   R1*34 |
+
+   % 89
+   d1~ |
+
+   % 90
+   1 | 1~ | 1 | f~ | f |
+   % 95
+   1~ | 1 | g~( | 1 | a~ |
+
+   % 100
+   1~ | 2.~ 8) r8 | R1*50
+
+   % 152
+   \key d \major  | R1*36
+
+   % 188
+   fis,1~ | 1~ | 1( | g2 fis) | g1~
+
+   % 193
+   1 | a~ | 1 | b~ | 1 | cis~ | 1
+   % 200
+   d | e | fis | g2( fis) | d1 | cis | \time 12/8 d1.~ |
+
+   % 207
+   1.~ | 8 r8 r4 r1 |
+
+  % 209
+  \key c \major
+  \time 3/4
+  \compressMMRests {R2.*47} |
+
+  % 255
+  \key bes \major
+  \compressMMRests {R2.*28} |
+
+  % 284
+  \key ges \major
+  \compressMMRests {R2.*28} |
+
+   % 312
+   \key e \major
+   b2.
+}
+
+
 tenors = \relative c {
   \clef "G_8"
   \key f \major
@@ -23,7 +72,7 @@ tenors = \relative c {
   % 65
   c~ | c~ | c~ | c2.~ c8 r8 |
   \compressMMRests {R1*20} |
-  % 89  
+  % 89
   d1~ | d | d~ | d | f~ | f | f~ | f | g(~ | g | a~ | a)
   % 101
   d,~ | d~ | d~ | d2.~ d8 r8 | r1 | r1 |
@@ -51,11 +100,11 @@ tenors = \relative c {
   \time 3/4
   \compressMMRests {R2.*33} |
   r4 g, c | g'2. | R2.*3 | r4 g, c | a2. | R2.*4 | r4 g c | g'2.~ | g |
-  
+
   % 255
   \key bes \major
   \compressMMRests {R2.*28} |
-  
+
   % 284
   \key ges \major
   R2. | r4 des,2~ | 2. | a'( | bes2) r4 | R2.*3 | des2.~ | 2 g,4~ | 2.~ | 4 ces2~ | 2. |
@@ -149,7 +198,7 @@ tenors_deux = \relative c {
   % 255
   \key bes \major
   \compressMMRests {R2.*28} |
-  
+
   % 284
   \key ges \major
   R2. | r4 des,2~ | 2. | a'( | bes2) r4 | R2.*3 | des2.~ | 2 g,4~ | 2.~ | 4 ces2~ | 2. |
@@ -183,8 +232,8 @@ tenors_deux = \relative c {
   % 451
   c~ | c~ | c~ | c~ | 8 r8 r4 r2 |
   % 456
-  R1*9 | 
-  
+  R1*9 |
+
   % 465
   \compressMMRests {R1*30} |
   a1 | c | e | d2 c | b1~ | b |
@@ -241,7 +290,7 @@ basses = \relative c {
   % 255
   \key bes \major
   \compressMMRests {R2.*28} |
-  
+
   % 284
   \key ges \major
   R2.*4 | r2 bes,4~ | 2. | r4 ges'2~ | 2. | R2.*11 | r2 des4~ | 2.~ | 4 r2 | R2.*6 |
@@ -271,7 +320,7 @@ basses = \relative c {
   % 451
   f~ | f | a~ | a~ | 8 r8 r4 r2 |
   % 456
-  R1*9 | 
+  R1*9 |
 
   % 465
   \compressMMRests {R1*30} |
@@ -294,6 +343,14 @@ basses = \relative c {
   \time 4/4
   %\tempo 4 = 69
 
+    \new Staff <<
+      \set Staff.midiInstrument = "choir aahs"
+      \new Voice = "S. I" \with { \consists Ambitus_engraver } {
+          \sopranos
+      }
+    >>
+
+
     \new Voice = "T. I" \with { \consists Ambitus_engraver } {
       \tenors
     }
@@ -302,7 +359,7 @@ basses = \relative c {
     }
     \new Voice = "B."  \with { \consists Ambitus_engraver } {
       \basses
-    }    
+    }
   >>
   \layout { }
   \midi { }
