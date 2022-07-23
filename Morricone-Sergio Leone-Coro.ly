@@ -87,7 +87,22 @@ sopranos = \relative c'' {
    e~ | 1~ | 1~ | 1 | d~ | 1 |
 
    % 451
-   f~ | 1 | d~ | 1~ | d8 r8 r4 r2 |
+   f~ | 1 | e~ | 1~ | e8 r8 r4 r2 |
+
+   \compressMMRests {R1*43} |
+
+   % 495
+   e,2 gis | b d |
+   % 501
+   c1~ | 1 | d~ | 1 | e~ | 1 | g~ |
+
+   % 508
+   1 | fis~ | 1 | f!~ | 2.~ 8 r8 | e2 d | a e' |
+   % 515
+   d a | e' d | a e' | d a | e' d | a e'~ | 2 d |
+
+   % 522
+   a e' | d a | e' d | a e' | d a | e' d | a e'~ | 8 r8 r4 r2 |
 }
 
 
