@@ -58,7 +58,36 @@ sopranos = \relative c'' {
 
    % 312
    \key e \major
-   b2.
+   b2.~ | b~ | b | bis | cis~ | cis~ | cis~ |
+
+   % 319
+   cis | b~ | b | cis( | dis2 cis4 | b2.~) | b |
+   % 326
+   gis~ | gis~ | gis~ | gis | fis~ | 2~ 8 r8 | gis2.~ |
+
+   % 333
+   2. | fis~ | 2. | gis~ | 2. | fis~ |
+   % 339
+   2. | gis~ | 2.~ | 2.~ | 2. | g~ | 2.~ |
+
+   % 346
+   2.~ | 8 r8 r4 r4 | \key c \major
+   \compressMMRests {R2.*28} |
+
+   \time 4/4
+   \compressMMRests {R1*49} |
+
+   % 425
+   R1*10 |
+   c1 | d | e~ | 1~ |
+
+   % 439
+   1~ | 1 | d~ | 1 | f~ | 1 \breathe |
+   % 445
+   e~ | 1~ | 1~ | 1 | d~ | 1 |
+
+   % 451
+   f~ | 1 | d~ | 1~ | d8 r8 r4 r2 |
 }
 
 
