@@ -46,15 +46,15 @@ basses = \relative c {
   % 92
   c8. 16 b4 r2 | c8. 16 bis4 r2 | d8. 16 8 a d8. 16 8 d,16 d |
   % 95
-  g8 g d d g4 g | r2 r4 d'4~ |
+  g8 g d d g,4 g | r2 r4 d''4~ |
   % 97
   d8 cis8 8 8 d8. 16 8 d,16 16 | g8 g d d a'2 | d,2 r2 |
   % 100
-  r8 c'8 c b c c a f | c' c,16 c a'4 c, r4 | r8 c'8 c b c c a f |
+  r8 c'8 c b c c a f | c' c,16 c g'4 c, r4 | r8 c'8 c b c c a f |
   % 103
   c'8 c r4 r8 d b g | c c r4 r8 c,8 g'4 | c,4 r4 r2 |
   % 106
-  f1 | e4. 8 2 | d d | r4 g d d  | r4 a |
+  f1 | e4. 8 2 | d d | r4 g d' d  | r4 a, |
   % 110
   e' a, | e'2 a, | b c | d1 | g,1 |
 
