@@ -44,9 +44,9 @@ basses = \relative c {
   % 88
   c,4 r4 r2 | f4 e r2 | g4 fis r2 | a4 gis r2 |
   % 92
-  c8. 16 b4 r2 | c8. 16 bis4 r2 | d8. 16 8 a d8. 16 8 d,16 d |
+  c8. 16 b4 r2 | d8. 16 cis4 r2 | d8. 16 8 a d8. 16 8 d,16 d |
   % 95
-  g8 g d d g,4 g | r2 r4 d''4~ |
+  g8 g d d a4 a | r2 r4 d'4~ |
   % 97
   d8 cis8 8 8 d8. 16 8 d,16 16 | g8 g d d a'2 | d,2 r2 |
   % 100
