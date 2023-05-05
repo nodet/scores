@@ -15,7 +15,7 @@
 
 basses = \relative c' {
   \clef bass
-  \key d \major
+  \key e \major
   \time 4/4
   \tempo 4 = 70
 
