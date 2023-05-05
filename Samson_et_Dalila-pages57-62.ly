@@ -23,8 +23,8 @@ basses = \relative c' {
   r2 r4 bes8 c | d2 4. 8 |
 
   % Page 58
-  d2. bes4 | ees4. 8 4. 8 |
-  c2. r4 | 4 8 8 ees4. a,8 |
+  d2. bes4 | ees4. 8 4. d8 |
+  c2. r4 | 4 8 8 d4. a,8 |
 
   % Page 59
   c4 bes r4 a8 g | a2 c4 4 |
