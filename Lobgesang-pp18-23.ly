@@ -25,7 +25,7 @@ basses = \relative c {
   gis eis fis gis fis ais b cis | fis,4. e16 d cis4. b8 | 4 r4 r2 | R1*2 |
 
   % Page 19
-  r4 r8 fis'8 g4. gis8 | a4. ais8 b4 g | g( fis) g r4 | R1*2 |
+  r4 r8 fis'8 g4. gis8 | a4. ais8 b4 g | g( fis) fis r4 | R1*2 |
   r4 r8 cis8 b4. cis16 b | ais4 b8 a gis eis fis gis | ais fis gis ais b b, cis d | e4 fis8 g a b cis4 |
   dis,4 r4 r2 | R1 | b'2 g4 b | c8 b a g fis d e fis | g4( d) g b |
 
@@ -41,7 +41,7 @@ basses = \relative c {
   R1*5 | r4 b4 4 4 | 
 
   % Page 22
-  cis fis fis eis | g r4 r2 | b,2 cis | fis,4 r4 r2 | R1 |
+  cis fis fis eis | fis r4 r2 | b,2 cis | fis,4 r4 r2 | R1 |
   R1*5 |
   r2 fis'2 | d d | g, b | a1~ | 1~ | 1 | 
 

@@ -46,7 +46,7 @@ basses = \relative c {
   % Page 10
   bes,4. d | g bes, | ees8 g a bes a g | c4. bes | a g | fis d |
   g,2.~ | 2.~ | 2.~ | 4 r8 fis4. | g a | bes b | c d |
-  e a, | d g,4 bes8 | d4. 4. | g, r4. | R2.*3 |
+  ees a, | d g,4 bes8 | d4. 4. | g, r4. | R2.*3 |
 
   % Page 11
   R2.*2 | 
